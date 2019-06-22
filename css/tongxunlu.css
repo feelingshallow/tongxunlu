@@ -1,0 +1,72 @@
+@import "base.css";
+header{
+    height: 0.88rem;
+    width: 100%;
+    background-color: #fbfeff;
+    box-shadow: 0 0.03rem 0.43rem 0
+    rgba(41, 167, 255, 0.13);
+    position: fixed;
+    top: 0;
+}
+header ul {
+    display:flex;
+    justify-content: space-between;
+    padding: 0 0.22rem;
+}
+header >ul >li {
+    height: 0.88rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+header ul li p{
+    font-size: 0.38rem;
+    color: #4ebbfe;
+    display: block;
+}
+header li a .iconfont{
+    font-size: 0.38rem;
+    color: #4ebbfe;
+}
+/*搜索框*/
+.search{
+    padding-top: 0.88rem;
+}
+input{
+
+    width: 6.6rem;
+   border-radius: 1rem;
+    border: 0.02rem solid #e2e2e2;
+    height: 0.6rem;
+    float: left;
+   margin: 0.3rem;
+    text-align: center;
+   outline: none;
+}
+ul{
+    margin: 0.2rem 0;
+}
+ul h3{
+    margin: 0.1rem 0;
+    border-bottom: 0.02rem solid #046b80;
+}
+.main  ul> li{
+    margin: 0.1rem 0;
+    border-bottom: 0.02rem dashed #046b80;
+}
+/*侧边导航*/
+.aside{
+    width: 0.5rem;
+ text-align: center;
+    position: fixed;
+    right: 0.1rem;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.aside li{
+    width: 100%;
+
+   margin: 0.1rem 0;
+}
